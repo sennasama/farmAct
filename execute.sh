@@ -32,7 +32,7 @@ while true; do
   git add .
   git commit -m "chore: $WORD $(date +%H:%M:%S)"
   git push origin main
-  SLEEP=$((RANDOM % 300 + 180))
+  SLEEP=$((RANDOM % 1))
   echo "Sleeping ${SLEEP}s..."
   sleep $SLEEP
 done
