@@ -24,7 +24,7 @@ while true; do
 
   git push origin main
 
-  SLEEP=$((RANDOM % 1 + 11))
+  SLEEP=$((RANDOM % 1))
 
   echo "Sleeping ${SLEEP}s..."
 
